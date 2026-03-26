@@ -1,0 +1,155 @@
+@import "tailwindcss";
+
+@plugin "tailwindcss-animate";
+
+/*
+  ================================================
+  Globals.css - Phoenix (Saskia Barouki)
+  Skill deps: @[skills/frontend-design] + @[skills/theme-factory]
+  Color Palette: Warm Rose (Primary), Charcoal (Text), Offwhite (Bg) 
+  ================================================
+*/
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Brand Tokens */
+  --brand-primary: #B08D8D;
+  --brand-secondary: #1A1A1A;
+  --brand-bg: #FAF9F7;
+  --brand-surface: #FFFFFF;
+  --brand-surface-alt: #F2EFEC;
+  --brand-text: #1A1A1A;
+  --brand-muted: #6B6560;
+  --brand-border: #E8E4E0;
+
+  /* shadcn/ui base mappings */
+  --background: oklch(0.98 0.01 75); /* ≈ #FAF9F7 */
+  --foreground: oklch(0.15 0.0 0);   /* ≈ #1A1A1A */
+  
+  --card: oklch(1 0 0);             /* ≈ #FFFFFF */
+  --card-foreground: oklch(0.15 0.0 0);
+  
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.15 0.0 0);
+  
+  --primary: oklch(0.65 0.06 20);   /* ≈ #B08D8D */
+  --primary-foreground: oklch(1 0 0);
+  
+  --secondary: oklch(0.15 0.0 0);   /* ≈ #1A1A1A */
+  --secondary-foreground: oklch(1 0 0);
+  
+  --muted: oklch(0.95 0.01 75);     /* ≈ #F2EFEC */
+  --muted-foreground: oklch(0.5 0.01 75); /* ≈ #6B6560 */
+  
+  --accent: oklch(0.95 0.01 75);    /* ≈ #F2EFEC */
+  --accent-foreground: oklch(0.15 0.0 0);
+  
+  --destructive: oklch(0.6 0.2 25);
+  --destructive-foreground: oklch(1 0 0);
+
+  --border: oklch(0.92 0.01 75);    /* ≈ #E8E4E0 */
+  --input: oklch(0.92 0.01 75);
+  --ring: oklch(0.65 0.06 20);
+
+  --radius: 0.5rem;
+
+  /* Typography variables established in layout.tsx */
+  --font-sans: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-heading: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
+}
+
+.dark {
+  /* Using original site contrast (light mode focus), dark mode provided as fallback */
+  --background: oklch(0.15 0.0 0);
+  --foreground: oklch(0.98 0.01 75);
+  --card: oklch(0.2 0.0 0);
+  --card-foreground: oklch(0.98 0.01 75);
+  --popover: oklch(0.15 0.0 0);
+  --popover-foreground: oklch(0.98 0.01 75);
+  --primary: oklch(0.65 0.06 20);
+  --primary-foreground: oklch(1 0 0);
+  --secondary: oklch(0.98 0.01 75);
+  --secondary-foreground: oklch(0.15 0.0 0);
+  --muted: oklch(0.25 0.0 0);
+  --muted-foreground: oklch(0.7 0.0 0);
+  --accent: oklch(0.25 0.0 0);
+  --accent-foreground: oklch(0.98 0.01 75);
+  --destructive: oklch(0.4 0.2 25);
+  --destructive-foreground: oklch(1 0 0);
+  --border: oklch(0.25 0.0 0);
+  --input: oklch(0.25 0.0 0);
+  --ring: oklch(0.65 0.06 20);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --font-sans: var(--font-sans);
+  --font-heading: var(--font-heading);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading tracking-tight;
+  }
+
+  h1 {
+    @apply text-4xl sm:text-5xl md:text-6xl font-light;
+  }
+  
+  h2 {
+    @apply text-3xl sm:text-4xl md:text-5xl font-light;
+  }
+  
+  h3 {
+    @apply text-2xl sm:text-3xl font-normal;
+  }
+
+  p {
+    @apply leading-relaxed text-muted-foreground font-light text-[17px] sm:text-lg;
+  }
+}
+
+/* Custom Utilities for Premium Aesthetic */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .glass {
+    @apply bg-white/70 backdrop-blur-lg border border-white/20 shadow-sm;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-[#8A6A6A];
+  }
+}
