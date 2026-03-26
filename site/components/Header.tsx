@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -46,11 +47,14 @@ export function Header() {
         >
             <div className="container mx-auto px-4 md:px-8 flex items-center justify-between">
                 {/* LOGO COMPLETO */}
-                <Link href="/" className="flex items-center z-50 relative py-2">
-                    <img
+                <Link href="/" className="flex items-center z-50 relative py-2 w-[160px] sm:w-[220px] md:w-[260px] h-16 sm:h-24 md:h-28 lg:h-32">
+                    <Image
                         src={logoPath}
                         alt={companyName}
-                        className="h-16 sm:h-24 md:h-28 lg:h-32 w-auto object-contain transition-all duration-300"
+                        fill
+                        priority
+                        sizes="(max-width: 768px) 160px, 260px"
+                        className="object-contain transition-all duration-300"
                     />
                 </Link>
 

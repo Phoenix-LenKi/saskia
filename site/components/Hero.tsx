@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { companyName, heroTitle, heroSubtitle, slogan, primaryCtaLabel, primaryCtaHref } from "@/lib/content";
 import { Button } from "@/components/ui/button";
 import { motionConfig } from "@/lib/brand";
@@ -82,10 +83,13 @@ export function Hero() {
                         {/* Decorative glow behind the image */}
                         <div className="absolute bottom-10 inset-x-0 mx-auto w-3/4 h-3/4 bg-white/60 blur-[100px] rounded-full z-0 pointer-events-none" />
 
-                        <img
+                        <Image
                             src="/lead-assets/dra-saskia-home.png"
                             alt="Dra. Saskia Barouki"
-                            className="w-full h-full object-contain object-bottom filter drop-shadow-[0_20px_40px_rgba(26,26,26,0.1)] z-10"
+                            fill
+                            priority
+                            sizes="(max-width: 768px) 100vw, 50vw"
+                            className="object-contain object-bottom filter drop-shadow-[0_20px_40px_rgba(26,26,26,0.1)] z-10"
                         />
                     </motion.div>
 
