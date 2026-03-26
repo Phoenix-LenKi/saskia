@@ -1,6 +1,3 @@
-"use client";
-
-import { motion } from "framer-motion";
 import Image from "next/image";
 import { companyName, heroTitle, heroSubtitle, slogan, primaryCtaLabel, primaryCtaHref } from "@/lib/content";
 import { Button } from "@/components/ui/button";
@@ -24,11 +21,7 @@ export function Hero() {
 
                     {/* TEXTO */}
                     <div className="max-w-2xl md:pt-12">
-                        <motion.div
-                            initial={{ opacity: 0, y: 20 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-                        >
+                        <div className="animate-in fade-in slide-in-from-bottom-4 duration-1000 ease-out fill-mode-both">
                             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-[80px] font-heading font-medium leading-[1.05] tracking-tight mb-4">
                                 <span className="bg-gradient-to-r from-[#B08D8D] via-[#C29F95] to-[#8A6A6A] bg-clip-text text-transparent drop-shadow-sm">
                                     {heroTitle}
@@ -70,15 +63,12 @@ export function Hero() {
                                     </a>
                                 </Button>
                             </div>
-                        </motion.div>
+                        </div>
                     </div>
 
                     {/* IMAGE CONTENT - Stylized Transparent PNG */}
-                    <motion.div
-                        initial={{ opacity: 0, scale: 0.98, y: 20 }}
-                        animate={{ opacity: 1, scale: 1, y: 0 }}
-                        transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1], delay: 0.15 }}
-                        className="relative lg:h-[700px] md:h-[550px] h-[400px] w-full flex justify-center items-end overflow-visible mt-2 sm:mt-8 lg:mt-0"
+                    <div
+                        className="relative lg:h-[700px] md:h-[550px] h-[400px] w-full flex justify-center items-end overflow-visible mt-2 sm:mt-8 lg:mt-0 animate-in fade-in slide-in-from-bottom-8 duration-1000 ease-out fill-mode-both"
                     >
                         {/* Decorative glow behind the image */}
                         <div className="absolute bottom-10 inset-x-0 mx-auto w-3/4 h-3/4 bg-white/60 blur-[100px] rounded-full z-0 pointer-events-none" />
@@ -91,7 +81,7 @@ export function Hero() {
                             sizes="(max-width: 768px) 100vw, 50vw"
                             className="object-contain object-bottom filter drop-shadow-[0_20px_40px_rgba(26,26,26,0.1)] z-10"
                         />
-                    </motion.div>
+                    </div>
 
                 </div>
             </div>
