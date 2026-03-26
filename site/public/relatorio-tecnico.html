@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório Técnico TIER 1 - Dra. Saskia Barouki</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#FAF9F7] text-[#1A1A1A] font-sans p-8 min-h-screen">
+    <div
+        class="max-w-4xl mx-auto bg-white p-10 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-[#E8E4E0]">
+        <header class="border-b border-gray-100 pb-6 mb-8 text-center">
+            <h1 class="text-3xl font-medium text-[#B08D8D]">Relatório Técnico de Engenharia</h1>
+            <p class="text-gray-500 mt-2">Especificações da PWA e Aplicação SSR | Next.js 14</p>
+        </header>
+        <div class="space-y-8">
+            <section>
+                <h2 class="text-2xl font-semibold mb-3 border-l-4 border-[#B08D8D] pl-3">Arquitetura de Software</h2>
+                <p class="text-gray-700 leading-relaxed">
+                    O projeto foi desenvolvido sob a arquitetura App Router do <strong>Next.js 14</strong>, utilizando
+                    React 18 e Server Components como padrão para maximizar performance no tempo de carregamento da
+                    página (TTFB).
+                </p>
+            </section>
+            <section>
+                <h2 class="text-2xl font-semibold mb-3 border-l-4 border-[#B08D8D] pl-3">Design System e Estilização
+                </h2>
+                <p class="text-gray-700 leading-relaxed">
+                    Todo o controle de tokens CSS foi mapeado num arquivo single-source-of-truth via <strong>TailwindCSS
+                        (v3)</strong>, garantindo que não haja drift visual nas cores Nude/Rose <code>#B08D8D</code> ou
+                    Off-white <code>#FAF9F7</code>. Animações orquestradas nativamente usando <strong>Framer
+                        Motion</strong> (AnimatePresence, variants), mantendo a fluidez a 60FPS.
+                </p>
+            </section>
+            <section>
+                <h2 class="text-2xl font-semibold mb-3 border-l-4 border-[#B08D8D] pl-3">Otimizações Aplicadas</h2>
+                <ul class="list-disc list-inside text-gray-700 space-y-2 mt-2">
+                    <li><strong>Fontes dinâmicas Otimizadas:</strong> O uso do pacote <code>next/font/google</code>
+                        previne Cumulative Layout Shift (CLS).</li>
+                    <li><strong>Prevenção de FOUC:</strong> Resolvido "Flash of Unstyled Content" e "Hydration Error"
+                        gerenciando client render vs SSR headers no layout base.</li>
+                    <li><strong>Roteamento Dinâmico Anchor:</strong> Módulo Tratamentos programado para mapear dados em
+                        tempo real da "fonte da verdade" <code>lib/content.ts</code>, tornando fácil expandir novos
+                        serviços.</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
