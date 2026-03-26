@@ -1,0 +1,1932 @@
+{
+  "tool": "phoenix-scraper",
+  "version": "2.0.0",
+  "originalSiteUrl": "https://www.saskiabarouki.com.br/",
+  "generatedAt": "2026-03-25T22:19:44Z",
+  "settings": {
+    "maxPages": 30,
+    "timeout": 20,
+    "delay": 0.0,
+    "includeSubdomains": true,
+    "includeExternalAssets": true
+  },
+  "summary": {
+    "pagesVisited": 4,
+    "assetsDownloaded": 33,
+    "uniqueAssets": 58,
+    "discoveredLinks": 4,
+    "errors": 25
+  },
+  "linksFound": [
+    "https://www.saskiabarouki.com.br/",
+    "https://www.saskiabarouki.com.br/invisalign",
+    "https://www.saskiabarouki.com.br/limpeza",
+    "https://www.saskiabarouki.com.br/sobre"
+  ],
+  "pages": [
+    {
+      "url": "https://www.saskiabarouki.com.br/",
+      "slug": "home",
+      "title": "Home | Dra. Saskia Barouki",
+      "status": "ok",
+      "localHtmlPath": "pages/home.html",
+      "imageCount": 18,
+      "images": [
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_491d14d902af4e32b03d783eadef9f84~mv2.png/v1/crop/x_0,y_52,w_763,h_470/fill/w_163,h_100,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Saskia_Monogram%20(1)_pdf.png",
+          "localPath": "images/home/Saskia_Monogram%20(1)_pdf.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhamhh12.BI8PVQ.Tj01hh",
+          "alt": "Saskia_Monogram (1).pdf.png",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 163,
+          "height": 100,
+          "sizeBytes": 17311,
+          "sha1": "9dd18afb2854e4f11a2aad2005176790415cf205",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/11062b_ee201fc429cd47b38dcab633e6e8ec3f~mv2.png/v1/fill/w_50,h_50,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_ee201fc429cd47b38dcab633e6e8ec3f~mv2.png",
+          "localPath": "images/home/11062b_ee201fc429cd47b38dcab633e6e8ec3f~mv2.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_0_comp-lhkswpk6.YaS0jR.Tj01hh",
+          "alt": "Whatsapp",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 50,
+          "height": 50,
+          "sizeBytes": 3619,
+          "sha1": "6f70adccca6d674aad3d773f18fdbecb9f467202",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_6b6951566ccc42f891e034222fb675c8f000.jpg/v1/fill/w_147,h_54,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/e2022d_6b6951566ccc42f891e034222fb675c8f000.jpg",
+          "localPath": "images/home/e2022d_6b6951566ccc42f891e034222fb675c8f000.jpg",
+          "sourceType": "img:src",
+          "selectorHint": "img",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "image/jpeg",
+          "width": 147,
+          "height": 54,
+          "sizeBytes": 1241,
+          "sha1": "8de9470503eb04abf3457e44a5bcc3d98549dcab",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_9a724050e81f4ea39af21349af66340b~mv2.png/v1/crop/x_0,y_0,w_791,h_600/fill/w_664,h_504,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/dra%20saskia%20barouki.png",
+          "localPath": "images/home/dra%20saskia%20barouki.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhamhh15.BI8PVQ.Tj01hh",
+          "alt": "dra saskia barouki.png",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 664,
+          "height": 504,
+          "sizeBytes": 433185,
+          "sha1": "861f7b9385cdaf0428a0669319e3b517c82dac71",
+          "qualityFlags": [
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/11062b_b85d712fb3dd4fc89dafaf1821bf286e~mv2.jpeg/v1/crop/x_1061,y_0,w_5831,h_5304/fill/w_191,h_189,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Amigas%20unidas.jpeg",
+          "localPath": "images/home/Amigas%20unidas.jpeg",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhktt3c51__item-kicx9rji.lDHlrQ.Tj01hh",
+          "alt": "Amigas unidas",
+          "roleHint": "general",
+          "mimeType": "image/jpeg",
+          "width": 191,
+          "height": 189,
+          "sizeBytes": 17327,
+          "sha1": "00f0f8b9334cfec036fcb84857cf07f6c60fdbae",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/423bf12ac96b47f5a70c0ddc9abed009.jpg/v1/fill/w_191,h_189,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Sorriso%20perfeito.jpg",
+          "localPath": "images/home/Sorriso%20perfeito.jpg",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhktt3c51__item-kicx9s8q.lDHlrQ.Tj01hh",
+          "alt": "Sorriso perfeito",
+          "roleHint": "general",
+          "mimeType": "image/jpeg",
+          "width": 191,
+          "height": 189,
+          "sizeBytes": 9024,
+          "sha1": "948c05c7893c128b5bc8c60cff802ab41dfd9580",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_e883abbb0b5e42a79f99b28bb15198fa~mv2.png/v1/fill/w_191,h_189,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/alinhadores%20invis%C3%ADveis%20invisalign.png",
+          "localPath": "images/home/alinhadores%20invis%C3%ADveis%20invisalign.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhq7gstv__item-kicx9qyp.lDHlrQ.Tj01hh",
+          "alt": "alinhadores invisíveis invisalign.png",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 191,
+          "height": 189,
+          "sizeBytes": 100201,
+          "sha1": "a4d6ab3c0873c27c47ef2304369caa3f16861c73",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/91fc24c6d5e44312a2de8ea6b848d562.jpg/v1/crop/x_2018,y_543,w_4005,h_3967/fill/w_191,h_189,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/No%20dentista.jpg",
+          "localPath": "images/home/No%20dentista.jpg",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhq7gstv__item1.lDHlrQ.Tj01hh",
+          "alt": "No dentista",
+          "roleHint": "team",
+          "mimeType": "image/jpeg",
+          "width": 191,
+          "height": 189,
+          "sizeBytes": 11420,
+          "sha1": "5c87ceb2b2001bf0b66cff6644466a0167831481",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_311fe1f998ce41f1ab2a1dc479275730~mv2.jpg/v1/fill/w_147,h_54,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/e2022d_311fe1f998ce41f1ab2a1dc479275730~mv2.jpg",
+          "localPath": "images/home/e2022d_311fe1f998ce41f1ab2a1dc479275730~mv2.jpg",
+          "sourceType": "img:src",
+          "selectorHint": "img",
+          "alt": "invisalign beira mar.jpg",
+          "roleHint": "general",
+          "mimeType": "image/jpeg",
+          "width": 147,
+          "height": 54,
+          "sizeBytes": 1355,
+          "sha1": "e9085ac1bee1a4ec2387754a437a0ce9c05ed6d6",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_0cf4d473df344c66a56ee51f8c818e49~mv2.png/v1/crop/x_73,y_0,w_496,h_674/fill/w_392,h_533,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Design%20sem%20nome%20(1).png",
+          "localPath": "images/home/Design%20sem%20nome%20(1).png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhaml2qj.BI8PVQ.Tj01hh",
+          "alt": "Design sem nome (1).png",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 392,
+          "height": 533,
+          "sizeBytes": 291714,
+          "sha1": "6ea8e9e8c5e143bed4aefc58b1944a22e5561b50",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_0dae0e244a544be9bab84b241f0a9ef2~mv2.png/v1/crop/x_0,y_6,w_540,h_527/fill/w_463,h_452,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/dr_%20saskia%20(2).png",
+          "localPath": "images/home/dr_%20saskia%20(2).png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhan2xbd.BI8PVQ.Tj01hh",
+          "alt": "dr. saskia (2).png",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 463,
+          "height": 452,
+          "sizeBytes": 311644,
+          "sha1": "87e12edd4384e9cbd74fa967940d589a979f410a",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_dacc3694a9f1433aa0846b8b6933b370~mv2.png/v1/fill/w_437,h_160,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Capturar_PNG.png",
+          "localPath": "images/home/Capturar_PNG.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhrlif7g.BI8PVQ.Tj01hh",
+          "alt": "Capturar.PNG",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 437,
+          "height": 160,
+          "sizeBytes": 41397,
+          "sha1": "abf99b5570d926e9b2050ad41e7837fcc4c2e884",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_65a744d5249443f9b10034d6b9d86a18~mv2.png/v1/fill/w_418,h_160,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Captura%20de%20tela%202022-09-08%20181905.png",
+          "localPath": "images/home/Captura%20de%20tela%202022-09-08%20181905.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhrlif8a.BI8PVQ.Tj01hh",
+          "alt": "Captura de tela 2022-09-08 181905.png",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 418,
+          "height": 160,
+          "sizeBytes": 34365,
+          "sha1": "69f2b45b28590b3a3a84248be88003e8faaa327c",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_8dc5d35c6e1949f8a0bc6c41bdadfde7~mv2.png/v1/fill/w_523,h_85,al_c,q_85,enc_avif,quality_auto/Captura%20de%20tela%202022-09-08%20181646.png",
+          "localPath": "images/home/Captura%20de%20tela%202022-09-08%20181646.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhrlif90.BI8PVQ.Tj01hh",
+          "alt": "Captura de tela 2022-09-08 181646.png",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 523,
+          "height": 85,
+          "sizeBytes": 7775,
+          "sha1": "2814466b87a8edba8f7da6eb5f0784acba7d4505",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_01806317d844438eb9f0048c7e86bea2~mv2.png/v1/fill/w_434,h_123,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Captura%20de%20tela%202022-09-08%20181058.png",
+          "localPath": "images/home/Captura%20de%20tela%202022-09-08%20181058.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhrlif9t.BI8PVQ.Tj01hh",
+          "alt": "Captura de tela 2022-09-08 181058.png",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 434,
+          "height": 123,
+          "sizeBytes": 26915,
+          "sha1": "d3967a1cd25a2a6d1877f4ffb3cbe700481dde99",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_c4c447b346524a5bb11549d205b0a7f0~mv2.jpg/v1/fill/w_147,h_54,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/e2022d_c4c447b346524a5bb11549d205b0a7f0~mv2.jpg",
+          "localPath": "images/home/e2022d_c4c447b346524a5bb11549d205b0a7f0~mv2.jpg",
+          "sourceType": "img:src",
+          "selectorHint": "img",
+          "alt": "Design sem nome.jpg",
+          "roleHint": "general",
+          "mimeType": "image/jpeg",
+          "width": 147,
+          "height": 54,
+          "sizeBytes": 2297,
+          "sha1": "01b0f3e26272ba2bbef4fbe386199541e737842d",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/11062b_ee201fc429cd47b38dcab633e6e8ec3f~mv2.png/v1/fill/w_66,h_66,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_ee201fc429cd47b38dcab633e6e8ec3f~mv2.png",
+          "localPath": "images/home/11062b_ee201fc429cd47b38dcab633e6e8ec3f~mv2_1.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_0_comp-lhq6y60a.YaS0jR.Tj01hh",
+          "alt": "Whatsapp",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 66,
+          "height": 66,
+          "sizeBytes": 4859,
+          "sha1": "42f0a1e7a9849b755109504c0bb5f062e9c47823",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/"
+        },
+        {
+          "sourceUrl": "https://static.parastorage.com/client/pfavico.ico",
+          "localPath": "images/home/pfavico.ico",
+          "sourceType": "link:icon",
+          "selectorHint": "icon",
+          "alt": "",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/vnd.microsoft.icon",
+          "width": 16,
+          "height": 16,
+          "sizeBytes": 1150,
+          "sha1": "292d9aeb457ab7fedbad452854332aeff267a78e",
+          "qualityFlags": [
+            "low_resolution"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/"
+        }
+      ],
+      "discoveredInternalLinks": [
+        "https://www.saskiabarouki.com.br/",
+        "https://www.saskiabarouki.com.br/invisalign",
+        "https://www.saskiabarouki.com.br/limpeza",
+        "https://www.saskiabarouki.com.br/sobre"
+      ]
+    },
+    {
+      "url": "https://www.saskiabarouki.com.br/limpeza",
+      "slug": "limpeza",
+      "title": "Limpeza dental | Dra. Saskia Barouki",
+      "status": "ok",
+      "localHtmlPath": "pages/limpeza.html",
+      "imageCount": 14,
+      "images": [
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_491d14d902af4e32b03d783eadef9f84~mv2.png/v1/crop/x_0,y_52,w_763,h_470/fill/w_163,h_100,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Saskia_Monogram%20(1)_pdf.png",
+          "localPath": "images/home/Saskia_Monogram%20(1)_pdf.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhamhh12.BI8PVQ.Tj01hh",
+          "alt": "Saskia_Monogram (1).pdf.png",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 163,
+          "height": 100,
+          "sizeBytes": 17311,
+          "sha1": "9dd18afb2854e4f11a2aad2005176790415cf205",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/limpeza",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/11062b_ee201fc429cd47b38dcab633e6e8ec3f~mv2.png/v1/fill/w_50,h_50,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_ee201fc429cd47b38dcab633e6e8ec3f~mv2.png",
+          "localPath": "images/home/11062b_ee201fc429cd47b38dcab633e6e8ec3f~mv2.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_0_comp-lhkswpk6.YaS0jR.Tj01hh",
+          "alt": "Whatsapp",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 50,
+          "height": 50,
+          "sizeBytes": 3619,
+          "sha1": "6f70adccca6d674aad3d773f18fdbecb9f467202",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/limpeza",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_6b6951566ccc42f891e034222fb675c8f000.jpg/v1/fill/w_147,h_54,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/e2022d_6b6951566ccc42f891e034222fb675c8f000.jpg",
+          "localPath": "images/home/e2022d_6b6951566ccc42f891e034222fb675c8f000.jpg",
+          "sourceType": "img:src",
+          "selectorHint": "img",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "image/jpeg",
+          "width": 147,
+          "height": 54,
+          "sizeBytes": 1241,
+          "sha1": "8de9470503eb04abf3457e44a5bcc3d98549dcab",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/limpeza",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_a03165cb42e44575bc769aa7cdf92560~mv2.png/v1/crop/x_243,y_0,w_644,h_800/fill/w_422,h_524,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/dra%20saskia%20barouki.png",
+          "localPath": "images/limpeza/dra%20saskia%20barouki.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhz8fvo8.BI8PVQ.Tj01hh",
+          "alt": "dra saskia barouki.png",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 422,
+          "height": 524,
+          "sizeBytes": 293929,
+          "sha1": "565b3afbe249e6b67213ddf8b308adc2960cbcdf",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/limpeza"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_311fe1f998ce41f1ab2a1dc479275730~mv2.jpg/v1/fill/w_147,h_54,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/e2022d_311fe1f998ce41f1ab2a1dc479275730~mv2.jpg",
+          "localPath": "images/home/e2022d_311fe1f998ce41f1ab2a1dc479275730~mv2.jpg",
+          "sourceType": "img:src",
+          "selectorHint": "img",
+          "alt": "invisalign beira mar.jpg",
+          "roleHint": "general",
+          "mimeType": "image/jpeg",
+          "width": 147,
+          "height": 54,
+          "sizeBytes": 1355,
+          "sha1": "e9085ac1bee1a4ec2387754a437a0ce9c05ed6d6",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/limpeza",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_0cf4d473df344c66a56ee51f8c818e49~mv2.png/v1/crop/x_73,y_0,w_496,h_674/fill/w_392,h_533,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Design%20sem%20nome%20(1).png",
+          "localPath": "images/home/Design%20sem%20nome%20(1).png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhaml2qj.BI8PVQ.Tj01hh",
+          "alt": "Design sem nome (1).png",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 392,
+          "height": 533,
+          "sizeBytes": 291714,
+          "sha1": "6ea8e9e8c5e143bed4aefc58b1944a22e5561b50",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/limpeza",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_a39b294e6ea94a938689f4b668113d62~mv2.png/v1/crop/x_0,y_8,w_675,h_659/fill/w_463,h_452,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/dr_%20saskia.png",
+          "localPath": "images/limpeza/dr_%20saskia.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhz8ely03.BI8PVQ.Tj01hh",
+          "alt": "dr. saskia.png",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 463,
+          "height": 452,
+          "sizeBytes": 303074,
+          "sha1": "a2435f84120f14ba4104d72b07ddad38a5252cea",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/limpeza"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_dacc3694a9f1433aa0846b8b6933b370~mv2.png/v1/fill/w_437,h_160,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Capturar_PNG.png",
+          "localPath": "images/home/Capturar_PNG.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhrlif7g.BI8PVQ.Tj01hh",
+          "alt": "Capturar.PNG",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 437,
+          "height": 160,
+          "sizeBytes": 41397,
+          "sha1": "abf99b5570d926e9b2050ad41e7837fcc4c2e884",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/limpeza",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_65a744d5249443f9b10034d6b9d86a18~mv2.png/v1/fill/w_418,h_160,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Captura%20de%20tela%202022-09-08%20181905.png",
+          "localPath": "images/home/Captura%20de%20tela%202022-09-08%20181905.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhrlif8a.BI8PVQ.Tj01hh",
+          "alt": "Captura de tela 2022-09-08 181905.png",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 418,
+          "height": 160,
+          "sizeBytes": 34365,
+          "sha1": "69f2b45b28590b3a3a84248be88003e8faaa327c",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/limpeza",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_8dc5d35c6e1949f8a0bc6c41bdadfde7~mv2.png/v1/fill/w_523,h_85,al_c,q_85,enc_avif,quality_auto/Captura%20de%20tela%202022-09-08%20181646.png",
+          "localPath": "images/home/Captura%20de%20tela%202022-09-08%20181646.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhrlif90.BI8PVQ.Tj01hh",
+          "alt": "Captura de tela 2022-09-08 181646.png",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 523,
+          "height": 85,
+          "sizeBytes": 7775,
+          "sha1": "2814466b87a8edba8f7da6eb5f0784acba7d4505",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/limpeza",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_01806317d844438eb9f0048c7e86bea2~mv2.png/v1/fill/w_434,h_123,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Captura%20de%20tela%202022-09-08%20181058.png",
+          "localPath": "images/home/Captura%20de%20tela%202022-09-08%20181058.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhrlif9t.BI8PVQ.Tj01hh",
+          "alt": "Captura de tela 2022-09-08 181058.png",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 434,
+          "height": 123,
+          "sizeBytes": 26915,
+          "sha1": "d3967a1cd25a2a6d1877f4ffb3cbe700481dde99",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/limpeza",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_c4c447b346524a5bb11549d205b0a7f0~mv2.jpg/v1/fill/w_147,h_54,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/e2022d_c4c447b346524a5bb11549d205b0a7f0~mv2.jpg",
+          "localPath": "images/home/e2022d_c4c447b346524a5bb11549d205b0a7f0~mv2.jpg",
+          "sourceType": "img:src",
+          "selectorHint": "img",
+          "alt": "Design sem nome.jpg",
+          "roleHint": "general",
+          "mimeType": "image/jpeg",
+          "width": 147,
+          "height": 54,
+          "sizeBytes": 2297,
+          "sha1": "01b0f3e26272ba2bbef4fbe386199541e737842d",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/limpeza",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/11062b_ee201fc429cd47b38dcab633e6e8ec3f~mv2.png/v1/fill/w_66,h_66,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_ee201fc429cd47b38dcab633e6e8ec3f~mv2.png",
+          "localPath": "images/home/11062b_ee201fc429cd47b38dcab633e6e8ec3f~mv2_1.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_0_comp-lhq6y60a.YaS0jR.Tj01hh",
+          "alt": "Whatsapp",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 66,
+          "height": 66,
+          "sizeBytes": 4859,
+          "sha1": "42f0a1e7a9849b755109504c0bb5f062e9c47823",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/limpeza",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://static.parastorage.com/client/pfavico.ico",
+          "localPath": "images/home/pfavico.ico",
+          "sourceType": "link:icon",
+          "selectorHint": "icon",
+          "alt": "",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/vnd.microsoft.icon",
+          "width": 16,
+          "height": 16,
+          "sizeBytes": 1150,
+          "sha1": "292d9aeb457ab7fedbad452854332aeff267a78e",
+          "qualityFlags": [
+            "low_resolution"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/limpeza",
+          "reusedFromCache": true
+        }
+      ],
+      "discoveredInternalLinks": [
+        "https://www.saskiabarouki.com.br/",
+        "https://www.saskiabarouki.com.br/sobre"
+      ]
+    },
+    {
+      "url": "https://www.saskiabarouki.com.br/sobre",
+      "slug": "sobre",
+      "title": "Sobre | Dra. Saskia Barouki",
+      "status": "ok",
+      "localHtmlPath": "pages/sobre.html",
+      "imageCount": 6,
+      "images": [
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_491d14d902af4e32b03d783eadef9f84~mv2.png/v1/crop/x_0,y_52,w_763,h_470/fill/w_163,h_100,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Saskia_Monogram%20(1)_pdf.png",
+          "localPath": "images/home/Saskia_Monogram%20(1)_pdf.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhamhh12.BI8PVQ.Tj01hh",
+          "alt": "Saskia_Monogram (1).pdf.png",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 163,
+          "height": 100,
+          "sizeBytes": 17311,
+          "sha1": "9dd18afb2854e4f11a2aad2005176790415cf205",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/sobre",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/11062b_ee201fc429cd47b38dcab633e6e8ec3f~mv2.png/v1/fill/w_50,h_50,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_ee201fc429cd47b38dcab633e6e8ec3f~mv2.png",
+          "localPath": "images/home/11062b_ee201fc429cd47b38dcab633e6e8ec3f~mv2.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_0_comp-lhkswpk6.YaS0jR.Tj01hh",
+          "alt": "Whatsapp",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 50,
+          "height": 50,
+          "sizeBytes": 3619,
+          "sha1": "6f70adccca6d674aad3d773f18fdbecb9f467202",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/sobre",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_0cf4d473df344c66a56ee51f8c818e49~mv2.png/v1/crop/x_73,y_0,w_496,h_674/fill/w_392,h_533,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Design%20sem%20nome%20(1).png",
+          "localPath": "images/home/Design%20sem%20nome%20(1).png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhaml2qj.BI8PVQ.Tj01hh",
+          "alt": "Design sem nome (1).png",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 392,
+          "height": 533,
+          "sizeBytes": 291714,
+          "sha1": "6ea8e9e8c5e143bed4aefc58b1944a22e5561b50",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/sobre",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_46b7aed1b3f549a09e864a48a287e102~mv2.png/v1/crop/x_3,y_0,w_630,h_615/fill/w_463,h_452,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/dr_%20saskia.png",
+          "localPath": "images/sobre/dr_%20saskia.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhtarhc4.BI8PVQ.Tj01hh",
+          "alt": "dr. saskia.png",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 463,
+          "height": 452,
+          "sizeBytes": 308747,
+          "sha1": "f1ef1ce8083d8984f4965d8ea2166fb5340dfea9",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/sobre"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/11062b_ee201fc429cd47b38dcab633e6e8ec3f~mv2.png/v1/fill/w_66,h_66,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_ee201fc429cd47b38dcab633e6e8ec3f~mv2.png",
+          "localPath": "images/home/11062b_ee201fc429cd47b38dcab633e6e8ec3f~mv2_1.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_0_comp-lhq6y60a.YaS0jR.Tj01hh",
+          "alt": "Whatsapp",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 66,
+          "height": 66,
+          "sizeBytes": 4859,
+          "sha1": "42f0a1e7a9849b755109504c0bb5f062e9c47823",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/sobre",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://static.parastorage.com/client/pfavico.ico",
+          "localPath": "images/home/pfavico.ico",
+          "sourceType": "link:icon",
+          "selectorHint": "icon",
+          "alt": "",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/vnd.microsoft.icon",
+          "width": 16,
+          "height": 16,
+          "sizeBytes": 1150,
+          "sha1": "292d9aeb457ab7fedbad452854332aeff267a78e",
+          "qualityFlags": [
+            "low_resolution"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/sobre",
+          "reusedFromCache": true
+        }
+      ],
+      "discoveredInternalLinks": [
+        "https://www.saskiabarouki.com.br/",
+        "https://www.saskiabarouki.com.br/sobre"
+      ]
+    },
+    {
+      "url": "https://www.saskiabarouki.com.br/invisalign",
+      "slug": "invisalign",
+      "title": "Invisalign | Dra. Saskia Barouki",
+      "status": "ok",
+      "localHtmlPath": "pages/invisalign.html",
+      "imageCount": 23,
+      "images": [
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_491d14d902af4e32b03d783eadef9f84~mv2.png/v1/crop/x_0,y_52,w_763,h_470/fill/w_163,h_100,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Saskia_Monogram%20(1)_pdf.png",
+          "localPath": "images/home/Saskia_Monogram%20(1)_pdf.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhamhh12.BI8PVQ.Tj01hh",
+          "alt": "Saskia_Monogram (1).pdf.png",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 163,
+          "height": 100,
+          "sizeBytes": 17311,
+          "sha1": "9dd18afb2854e4f11a2aad2005176790415cf205",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/invisalign",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/11062b_ee201fc429cd47b38dcab633e6e8ec3f~mv2.png/v1/fill/w_50,h_50,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_ee201fc429cd47b38dcab633e6e8ec3f~mv2.png",
+          "localPath": "images/home/11062b_ee201fc429cd47b38dcab633e6e8ec3f~mv2.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_0_comp-lhkswpk6.YaS0jR.Tj01hh",
+          "alt": "Whatsapp",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 50,
+          "height": 50,
+          "sizeBytes": 3619,
+          "sha1": "6f70adccca6d674aad3d773f18fdbecb9f467202",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/invisalign",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_311fe1f998ce41f1ab2a1dc479275730~mv2.jpg/v1/fill/w_147,h_54,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/e2022d_311fe1f998ce41f1ab2a1dc479275730~mv2.jpg",
+          "localPath": "images/home/e2022d_311fe1f998ce41f1ab2a1dc479275730~mv2.jpg",
+          "sourceType": "img:src",
+          "selectorHint": "img",
+          "alt": "invisalign beira mar.jpg",
+          "roleHint": "general",
+          "mimeType": "image/jpeg",
+          "width": 147,
+          "height": 54,
+          "sizeBytes": 1355,
+          "sha1": "e9085ac1bee1a4ec2387754a437a0ce9c05ed6d6",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/invisalign",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_82187a936ea5434d8f9cebfffe5def92~mv2.png/v1/fill/w_504,h_504,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Design%20sem%20nome%20(2).png",
+          "localPath": "images/invisalign/Design%20sem%20nome%20(2).png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhz8nz8i.BI8PVQ.Tj01hh",
+          "alt": "Design sem nome (2).png",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 504,
+          "height": 504,
+          "sizeBytes": 374543,
+          "sha1": "76d75c970dc99b7b16cd6a96a615c08eb531f1ee",
+          "qualityFlags": [
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/invisalign"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_e883abbb0b5e42a79f99b28bb15198fa~mv2.png/v1/fill/w_388,h_388,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e2022d_e883abbb0b5e42a79f99b28bb15198fa~mv2.png",
+          "localPath": "images/invisalign/e2022d_e883abbb0b5e42a79f99b28bb15198fa~mv2.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhz8ojla.BI8PVQ.Tj01hh",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 388,
+          "height": 388,
+          "sizeBytes": 386332,
+          "sha1": "1abcaef92dc683d0d9d247ae65f9ff491ee13c52",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/invisalign"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_ad0f2f978f374fc0ac8c7399eb74cad2~mv2.jpg/v1/fill/w_147,h_54,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/e2022d_ad0f2f978f374fc0ac8c7399eb74cad2~mv2.jpg",
+          "localPath": "images/invisalign/e2022d_ad0f2f978f374fc0ac8c7399eb74cad2~mv2.jpg",
+          "sourceType": "img:src",
+          "selectorHint": "img",
+          "alt": "Design sem nome.jpg",
+          "roleHint": "general",
+          "mimeType": "image/jpeg",
+          "width": 147,
+          "height": 54,
+          "sizeBytes": 1222,
+          "sha1": "2f27e5021f7759d33935c92164e3f3f538ec7c30",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/invisalign"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_0cf4d473df344c66a56ee51f8c818e49~mv2.png/v1/crop/x_73,y_0,w_496,h_674/fill/w_392,h_533,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Design%20sem%20nome%20(1).png",
+          "localPath": "images/home/Design%20sem%20nome%20(1).png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhaml2qj.BI8PVQ.Tj01hh",
+          "alt": "Design sem nome (1).png",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 392,
+          "height": 533,
+          "sizeBytes": 291714,
+          "sha1": "6ea8e9e8c5e143bed4aefc58b1944a22e5561b50",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/invisalign",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_8116e714b08242a487ce1e2f50e4f03f~mv2.png/v1/crop/x_108,y_0,w_972,h_1080/fill/w_388,h_431,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/dr_%20saskia%20(1).png",
+          "localPath": "images/invisalign/dr_%20saskia%20(1).png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhz8r9vg2.BI8PVQ.Tj01hh",
+          "alt": "dr. saskia (1).png",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 388,
+          "height": 431,
+          "sizeBytes": 271238,
+          "sha1": "1552f9303374ae0744414ab1f051858b4da6c46f",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/invisalign"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_7ca0af6bdf3f4637909897ce275e0ea2f000.jpg/v1/fill/w_360,h_640,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/e2022d_7ca0af6bdf3f4637909897ce275e0ea2f000.jpg",
+          "localPath": "images/invisalign/e2022d_7ca0af6bdf3f4637909897ce275e0ea2f000.jpg",
+          "sourceType": "img:src",
+          "selectorHint": "img#comp-lhz8sbe24_img.Z_wCwr.Jxk_UL.bgVideoposter.yK6aSC",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "image/jpeg",
+          "width": 360,
+          "height": 640,
+          "sizeBytes": 24210,
+          "sha1": "ed745fbe57853e73e8b426e79504f57ec720a0cb",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/invisalign"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_b7bfa40ef0f545dca156058ece6c26be~mv2.png/v1/fill/w_239,h_152,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/invisalign-curitiba-mordida-aberta.png",
+          "localPath": "images/invisalign/invisalign-curitiba-mordida-aberta.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhz8swkw4.BI8PVQ.Tj01hh",
+          "alt": "invisalign-curitiba-mordida-aberta.png",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 239,
+          "height": 152,
+          "sizeBytes": 69685,
+          "sha1": "1fd2d928ead004b292c88300c70d20245fd8c916",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/invisalign"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_6b522e1052f446958ffdb87e4db9e1da~mv2.png/v1/fill/w_242,h_152,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/invisalign-curitiba-mordida-cruzada.png",
+          "localPath": "images/invisalign/invisalign-curitiba-mordida-cruzada.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhz8swkz.BI8PVQ.Tj01hh",
+          "alt": "invisalign-curitiba-mordida-cruzada.png",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 242,
+          "height": 152,
+          "sizeBytes": 65991,
+          "sha1": "a20bcf17c4797292e3270152b8f60bfadfe2d617",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/invisalign"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_7f73a96efff74f6687f6b816927d04cd~mv2.png/v1/fill/w_241,h_152,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/invisalign-curitiba-mordida-correcoes-classe2-e-3.png",
+          "localPath": "images/invisalign/invisalign-curitiba-mordida-correcoes-classe2-e-3.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhz8swl1.BI8PVQ.Tj01hh",
+          "alt": "invisalign-curitiba-mordida-correcoes-classe2-e-3.png",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 241,
+          "height": 152,
+          "sizeBytes": 66595,
+          "sha1": "e99bd62f5f602ca0772f6753cf77edc704a0016e",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/invisalign"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_b963f9e82295436b97760f387f6a5c83~mv2.png/v1/fill/w_237,h_152,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/invisalign-curitiba-mordida-diastema.png",
+          "localPath": "images/invisalign/invisalign-curitiba-mordida-diastema.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhz8swl42.BI8PVQ.Tj01hh",
+          "alt": "invisalign-curitiba-mordida-diastema.png",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 237,
+          "height": 152,
+          "sizeBytes": 65705,
+          "sha1": "0d7244dc978a54dd4519ad196494db0f187d029e",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/invisalign"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_1e3c286444f84a309cfe82da7c0e60f0~mv2.png/v1/fill/w_239,h_152,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/invisalign-curitiba-mordida-profunda.png",
+          "localPath": "images/invisalign/invisalign-curitiba-mordida-profunda.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhz8swl8.BI8PVQ.Tj01hh",
+          "alt": "invisalign-curitiba-mordida-profunda.png",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 239,
+          "height": 152,
+          "sizeBytes": 63811,
+          "sha1": "305d74a59ac4c5c0363fcce1108175ce3acaba73",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/invisalign"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_64c28bae910443f2b2c813d8e527abc2~mv2.png/v1/fill/w_238,h_152,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/invisalign-curitiba-apinhamento.png",
+          "localPath": "images/invisalign/invisalign-curitiba-apinhamento.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhz8swla3.BI8PVQ.Tj01hh",
+          "alt": "invisalign-curitiba-apinhamento.png",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 238,
+          "height": 152,
+          "sizeBytes": 66167,
+          "sha1": "105f27580f2a96f4a20f5b16f9fc13768a3a88e3",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/invisalign"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_06e0755ae84d4298bcbc35cb14d7968c~mv2.png/v1/fill/w_490,h_490,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Design%20sem%20nome.png",
+          "localPath": "images/invisalign/Design%20sem%20nome.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhz8vp6h.BI8PVQ.Tj01hh",
+          "alt": "Design sem nome.png",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 490,
+          "height": 490,
+          "sizeBytes": 286940,
+          "sha1": "f63dbdf2a61d31893a84e7ae3cc3a50563422fc3",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/invisalign"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_dacc3694a9f1433aa0846b8b6933b370~mv2.png/v1/fill/w_437,h_160,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Capturar_PNG.png",
+          "localPath": "images/home/Capturar_PNG.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhrlif7g.BI8PVQ.Tj01hh",
+          "alt": "Capturar.PNG",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 437,
+          "height": 160,
+          "sizeBytes": 41397,
+          "sha1": "abf99b5570d926e9b2050ad41e7837fcc4c2e884",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/invisalign",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_65a744d5249443f9b10034d6b9d86a18~mv2.png/v1/fill/w_418,h_160,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Captura%20de%20tela%202022-09-08%20181905.png",
+          "localPath": "images/home/Captura%20de%20tela%202022-09-08%20181905.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhrlif8a.BI8PVQ.Tj01hh",
+          "alt": "Captura de tela 2022-09-08 181905.png",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 418,
+          "height": 160,
+          "sizeBytes": 34365,
+          "sha1": "69f2b45b28590b3a3a84248be88003e8faaa327c",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/invisalign",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_8dc5d35c6e1949f8a0bc6c41bdadfde7~mv2.png/v1/fill/w_523,h_85,al_c,q_85,enc_avif,quality_auto/Captura%20de%20tela%202022-09-08%20181646.png",
+          "localPath": "images/home/Captura%20de%20tela%202022-09-08%20181646.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhrlif90.BI8PVQ.Tj01hh",
+          "alt": "Captura de tela 2022-09-08 181646.png",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 523,
+          "height": 85,
+          "sizeBytes": 7775,
+          "sha1": "2814466b87a8edba8f7da6eb5f0784acba7d4505",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/invisalign",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_01806317d844438eb9f0048c7e86bea2~mv2.png/v1/fill/w_434,h_123,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Captura%20de%20tela%202022-09-08%20181058.png",
+          "localPath": "images/home/Captura%20de%20tela%202022-09-08%20181058.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-lhrlif9t.BI8PVQ.Tj01hh",
+          "alt": "Captura de tela 2022-09-08 181058.png",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 434,
+          "height": 123,
+          "sizeBytes": 26915,
+          "sha1": "d3967a1cd25a2a6d1877f4ffb3cbe700481dde99",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/invisalign",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/e2022d_c4c447b346524a5bb11549d205b0a7f0~mv2.jpg/v1/fill/w_147,h_54,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/e2022d_c4c447b346524a5bb11549d205b0a7f0~mv2.jpg",
+          "localPath": "images/home/e2022d_c4c447b346524a5bb11549d205b0a7f0~mv2.jpg",
+          "sourceType": "img:src",
+          "selectorHint": "img",
+          "alt": "Design sem nome.jpg",
+          "roleHint": "general",
+          "mimeType": "image/jpeg",
+          "width": 147,
+          "height": 54,
+          "sizeBytes": 2297,
+          "sha1": "01b0f3e26272ba2bbef4fbe386199541e737842d",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/invisalign",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/11062b_ee201fc429cd47b38dcab633e6e8ec3f~mv2.png/v1/fill/w_66,h_66,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_ee201fc429cd47b38dcab633e6e8ec3f~mv2.png",
+          "localPath": "images/home/11062b_ee201fc429cd47b38dcab633e6e8ec3f~mv2_1.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_0_comp-lhq6y60a.YaS0jR.Tj01hh",
+          "alt": "Whatsapp",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 66,
+          "height": 66,
+          "sizeBytes": 4859,
+          "sha1": "42f0a1e7a9849b755109504c0bb5f062e9c47823",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/invisalign",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://static.parastorage.com/client/pfavico.ico",
+          "localPath": "images/home/pfavico.ico",
+          "sourceType": "link:icon",
+          "selectorHint": "icon",
+          "alt": "",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/vnd.microsoft.icon",
+          "width": 16,
+          "height": 16,
+          "sizeBytes": 1150,
+          "sha1": "292d9aeb457ab7fedbad452854332aeff267a78e",
+          "qualityFlags": [
+            "low_resolution"
+          ],
+          "foundOnPage": "https://www.saskiabarouki.com.br/invisalign",
+          "reusedFromCache": true
+        }
+      ],
+      "discoveredInternalLinks": [
+        "https://www.saskiabarouki.com.br/",
+        "https://www.saskiabarouki.com.br/sobre"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/e2022d_491d14d902af4e32b03d783eadef9f84~mv2.png/v1/crop/x_0,y_52,w_763,h_470/fill/w_163,h_100,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Saskia_Monogram%20(1)_pdf.png",
+      "localPath": "images/home/Saskia_Monogram%20(1)_pdf.png",
+      "sourceType": "img:src",
+      "selectorHint": "img#img_comp-lhamhh12.BI8PVQ.Tj01hh",
+      "alt": "Saskia_Monogram (1).pdf.png",
+      "roleHint": "general",
+      "mimeType": "image/png",
+      "width": 163,
+      "height": 100,
+      "sizeBytes": 17311,
+      "sha1": "9dd18afb2854e4f11a2aad2005176790415cf205",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.saskiabarouki.com.br/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/11062b_ee201fc429cd47b38dcab633e6e8ec3f~mv2.png/v1/fill/w_50,h_50,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_ee201fc429cd47b38dcab633e6e8ec3f~mv2.png",
+      "localPath": "images/home/11062b_ee201fc429cd47b38dcab633e6e8ec3f~mv2.png",
+      "sourceType": "img:src",
+      "selectorHint": "img#img_0_comp-lhkswpk6.YaS0jR.Tj01hh",
+      "alt": "Whatsapp",
+      "roleHint": "general",
+      "mimeType": "image/png",
+      "width": 50,
+      "height": 50,
+      "sizeBytes": 3619,
+      "sha1": "6f70adccca6d674aad3d773f18fdbecb9f467202",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero",
+        "possibly_overcompressed"
+      ],
+      "foundOnPage": "https://www.saskiabarouki.com.br/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/e2022d_6b6951566ccc42f891e034222fb675c8f000.jpg/v1/fill/w_147,h_54,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/e2022d_6b6951566ccc42f891e034222fb675c8f000.jpg",
+      "localPath": "images/home/e2022d_6b6951566ccc42f891e034222fb675c8f000.jpg",
+      "sourceType": "img:src",
+      "selectorHint": "img",
+      "alt": "",
+      "roleHint": "general",
+      "mimeType": "image/jpeg",
+      "width": 147,
+      "height": 54,
+      "sizeBytes": 1241,
+      "sha1": "8de9470503eb04abf3457e44a5bcc3d98549dcab",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero",
+        "possibly_overcompressed"
+      ],
+      "foundOnPage": "https://www.saskiabarouki.com.br/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/e2022d_9a724050e81f4ea39af21349af66340b~mv2.png/v1/crop/x_0,y_0,w_791,h_600/fill/w_664,h_504,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/dra%20saskia%20barouki.png",
+      "localPath": "images/home/dra%20saskia%20barouki.png",
+      "sourceType": "img:src",
+      "selectorHint": "img#img_comp-lhamhh15.BI8PVQ.Tj01hh",
+      "alt": "dra saskia barouki.png",
+      "roleHint": "general",
+      "mimeType": "image/png",
+      "width": 664,
+      "height": 504,
+      "sizeBytes": 433185,
+      "sha1": "861f7b9385cdaf0428a0669319e3b517c82dac71",
+      "qualityFlags": [
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.saskiabarouki.com.br/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/11062b_b85d712fb3dd4fc89dafaf1821bf286e~mv2.jpeg/v1/crop/x_1061,y_0,w_5831,h_5304/fill/w_191,h_189,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Amigas%20unidas.jpeg",
+      "localPath": "images/home/Amigas%20unidas.jpeg",
+      "sourceType": "img:src",
+      "selectorHint": "img#img_comp-lhktt3c51__item-kicx9rji.lDHlrQ.Tj01hh",
+      "alt": "Amigas unidas",
+      "roleHint": "general",
+      "mimeType": "image/jpeg",
+      "width": 191,
+      "height": 189,
+      "sizeBytes": 17327,
+      "sha1": "00f0f8b9334cfec036fcb84857cf07f6c60fdbae",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.saskiabarouki.com.br/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/423bf12ac96b47f5a70c0ddc9abed009.jpg/v1/fill/w_191,h_189,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Sorriso%20perfeito.jpg",
+      "localPath": "images/home/Sorriso%20perfeito.jpg",
+      "sourceType": "img:src",
+      "selectorHint": "img#img_comp-lhktt3c51__item-kicx9s8q.lDHlrQ.Tj01hh",
+      "alt": "Sorriso perfeito",
+      "roleHint": "general",
+      "mimeType": "image/jpeg",
+      "width": 191,
+      "height": 189,
+      "sizeBytes": 9024,
+      "sha1": "948c05c7893c128b5bc8c60cff802ab41dfd9580",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero",
+        "possibly_overcompressed"
+      ],
+      "foundOnPage": "https://www.saskiabarouki.com.br/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/e2022d_e883abbb0b5e42a79f99b28bb15198fa~mv2.png/v1/fill/w_191,h_189,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/alinhadores%20invis%C3%ADveis%20invisalign.png",
+      "localPath": "images/home/alinhadores%20invis%C3%ADveis%20invisalign.png",
+      "sourceType": "img:src",
+      "selectorHint": "img#img_comp-lhq7gstv__item-kicx9qyp.lDHlrQ.Tj01hh",
+      "alt": "alinhadores invisíveis invisalign.png",
+      "roleHint": "general",
+      "mimeType": "image/png",
+      "width": 191,
+      "height": 189,
+      "sizeBytes": 100201,
+      "sha1": "a4d6ab3c0873c27c47ef2304369caa3f16861c73",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.saskiabarouki.com.br/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/91fc24c6d5e44312a2de8ea6b848d562.jpg/v1/crop/x_2018,y_543,w_4005,h_3967/fill/w_191,h_189,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/No%20dentista.jpg",
+      "localPath": "images/home/No%20dentista.jpg",
+      "sourceType": "img:src",
+      "selectorHint": "img#img_comp-lhq7gstv__item1.lDHlrQ.Tj01hh",
+      "alt": "No dentista",
+      "roleHint": "team",
+      "mimeType": "image/jpeg",
+      "width": 191,
+      "height": 189,
+      "sizeBytes": 11420,
+      "sha1": "5c87ceb2b2001bf0b66cff6644466a0167831481",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero",
+        "possibly_overcompressed"
+      ],
+      "foundOnPage": "https://www.saskiabarouki.com.br/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/e2022d_311fe1f998ce41f1ab2a1dc479275730~mv2.jpg/v1/fill/w_147,h_54,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/e2022d_311fe1f998ce41f1ab2a1dc479275730~mv2.jpg",
+      "localPath": "images/home/e2022d_311fe1f998ce41f1ab2a1dc479275730~mv2.jpg",
+      "sourceType": "img:src",
+      "selectorHint": "img",
+      "alt": "invisalign beira mar.jpg",
+      "roleHint": "general",
+      "mimeType": "image/jpeg",
+      "width": 147,
+      "height": 54,
+      "sizeBytes": 1355,
+      "sha1": "e9085ac1bee1a4ec2387754a437a0ce9c05ed6d6",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero",
+        "possibly_overcompressed"
+      ],
+      "foundOnPage": "https://www.saskiabarouki.com.br/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/e2022d_0cf4d473df344c66a56ee51f8c818e49~mv2.png/v1/crop/x_73,y_0,w_496,h_674/fill/w_392,h_533,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Design%20sem%20nome%20(1).png",
+      "localPath": "images/home/Design%20sem%20nome%20(1).png",
+      "sourceType": "img:src",
+      "selectorHint": "img#img_comp-lhaml2qj.BI8PVQ.Tj01hh",
+      "alt": "Design sem nome (1).png",
+      "roleHint": "general",
+      "mimeType": "image/png",
+      "width": 392,
+      "height": 533,
+      "sizeBytes": 291714,
+      "sha1": "6ea8e9e8c5e143bed4aefc58b1944a22e5561b50",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.saskiabarouki.com.br/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/e2022d_0dae0e244a544be9bab84b241f0a9ef2~mv2.png/v1/crop/x_0,y_6,w_540,h_527/fill/w_463,h_452,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/dr_%20saskia%20(2).png",
+      "localPath": "images/home/dr_%20saskia%20(2).png",
+      "sourceType": "img:src",
+      "selectorHint": "img#img_comp-lhan2xbd.BI8PVQ.Tj01hh",
+      "alt": "dr. saskia (2).png",
+      "roleHint": "general",
+      "mimeType": "image/png",
+      "width": 463,
+      "height": 452,
+      "sizeBytes": 311644,
+      "sha1": "87e12edd4384e9cbd74fa967940d589a979f410a",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.saskiabarouki.com.br/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/e2022d_dacc3694a9f1433aa0846b8b6933b370~mv2.png/v1/fill/w_437,h_160,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Capturar_PNG.png",
+      "localPath": "images/home/Capturar_PNG.png",
+      "sourceType": "img:src",
+      "selectorHint": "img#img_comp-lhrlif7g.BI8PVQ.Tj01hh",
+      "alt": "Capturar.PNG",
+      "roleHint": "general",
+      "mimeType": "image/png",
+      "width": 437,
+      "height": 160,
+      "sizeBytes": 41397,
+      "sha1": "abf99b5570d926e9b2050ad41e7837fcc4c2e884",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.saskiabarouki.com.br/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/e2022d_65a744d5249443f9b10034d6b9d86a18~mv2.png/v1/fill/w_418,h_160,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Captura%20de%20tela%202022-09-08%20181905.png",
+      "localPath": "images/home/Captura%20de%20tela%202022-09-08%20181905.png",
+      "sourceType": "img:src",
+      "selectorHint": "img#img_comp-lhrlif8a.BI8PVQ.Tj01hh",
+      "alt": "Captura de tela 2022-09-08 181905.png",
+      "roleHint": "general",
+      "mimeType": "image/png",
+      "width": 418,
+      "height": 160,
+      "sizeBytes": 34365,
+      "sha1": "69f2b45b28590b3a3a84248be88003e8faaa327c",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.saskiabarouki.com.br/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/e2022d_8dc5d35c6e1949f8a0bc6c41bdadfde7~mv2.png/v1/fill/w_523,h_85,al_c,q_85,enc_avif,quality_auto/Captura%20de%20tela%202022-09-08%20181646.png",
+      "localPath": "images/home/Captura%20de%20tela%202022-09-08%20181646.png",
+      "sourceType": "img:src",
+      "selectorHint": "img#img_comp-lhrlif90.BI8PVQ.Tj01hh",
+      "alt": "Captura de tela 2022-09-08 181646.png",
+      "roleHint": "general",
+      "mimeType": "image/png",
+      "width": 523,
+      "height": 85,
+      "sizeBytes": 7775,
+      "sha1": "2814466b87a8edba8f7da6eb5f0784acba7d4505",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero",
+        "possibly_overcompressed"
+      ],
+      "foundOnPage": "https://www.saskiabarouki.com.br/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/e2022d_01806317d844438eb9f0048c7e86bea2~mv2.png/v1/fill/w_434,h_123,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Captura%20de%20tela%202022-09-08%20181058.png",
+      "localPath": "images/home/Captura%20de%20tela%202022-09-08%20181058.png",
+      "sourceType": "img:src",
+      "selectorHint": "img#img_comp-lhrlif9t.BI8PVQ.Tj01hh",
+      "alt": "Captura de tela 2022-09-08 181058.png",
+      "roleHint": "general",
+      "mimeType": "image/png",
+      "width": 434,
+      "height": 123,
+      "sizeBytes": 26915,
+      "sha1": "d3967a1cd25a2a6d1877f4ffb3cbe700481dde99",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.saskiabarouki.com.br/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/e2022d_c4c447b346524a5bb11549d205b0a7f0~mv2.jpg/v1/fill/w_147,h_54,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/e2022d_c4c447b346524a5bb11549d205b0a7f0~mv2.jpg",
+      "localPath": "images/home/e2022d_c4c447b346524a5bb11549d205b0a7f0~mv2.jpg",
+      "sourceType": "img:src",
+      "selectorHint": "img",
+      "alt": "Design sem nome.jpg",
+      "roleHint": "general",
+      "mimeType": "image/jpeg",
+      "width": 147,
+      "height": 54,
+      "sizeBytes": 2297,
+      "sha1": "01b0f3e26272ba2bbef4fbe386199541e737842d",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero",
+        "possibly_overcompressed"
+      ],
+      "foundOnPage": "https://www.saskiabarouki.com.br/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/11062b_ee201fc429cd47b38dcab633e6e8ec3f~mv2.png/v1/fill/w_66,h_66,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_ee201fc429cd47b38dcab633e6e8ec3f~mv2.png",
+      "localPath": "images/home/11062b_ee201fc429cd47b38dcab633e6e8ec3f~mv2_1.png",
+      "sourceType": "img:src",
+      "selectorHint": "img#img_0_comp-lhq6y60a.YaS0jR.Tj01hh",
+      "alt": "Whatsapp",
+      "roleHint": "general",
+      "mimeType": "image/png",
+      "width": 66,
+      "height": 66,
+      "sizeBytes": 4859,
+      "sha1": "42f0a1e7a9849b755109504c0bb5f062e9c47823",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero",
+        "possibly_overcompressed"
+      ],
+      "foundOnPage": "https://www.saskiabarouki.com.br/"
+    },
+    {
+      "sourceUrl": "https://static.parastorage.com/client/pfavico.ico",
+      "localPath": "images/home/pfavico.ico",
+      "sourceType": "link:icon",
+      "selectorHint": "icon",
+      "alt": "",
+      "roleHint": "logo_or_icon",
+      "mimeType": "image/vnd.microsoft.icon",
+      "width": 16,
+      "height": 16,
+      "sizeBytes": 1150,
+      "sha1": "292d9aeb457ab7fedbad452854332aeff267a78e",
+      "qualityFlags": [
+        "low_resolution"
+      ],
+      "foundOnPage": "https://www.saskiabarouki.com.br/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/e2022d_a03165cb42e44575bc769aa7cdf92560~mv2.png/v1/crop/x_243,y_0,w_644,h_800/fill/w_422,h_524,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/dra%20saskia%20barouki.png",
+      "localPath": "images/limpeza/dra%20saskia%20barouki.png",
+      "sourceType": "img:src",
+      "selectorHint": "img#img_comp-lhz8fvo8.BI8PVQ.Tj01hh",
+      "alt": "dra saskia barouki.png",
+      "roleHint": "general",
+      "mimeType": "image/png",
+      "width": 422,
+      "height": 524,
+      "sizeBytes": 293929,
+      "sha1": "565b3afbe249e6b67213ddf8b308adc2960cbcdf",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.saskiabarouki.com.br/limpeza"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/e2022d_a39b294e6ea94a938689f4b668113d62~mv2.png/v1/crop/x_0,y_8,w_675,h_659/fill/w_463,h_452,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/dr_%20saskia.png",
+      "localPath": "images/limpeza/dr_%20saskia.png",
+      "sourceType": "img:src",
+      "selectorHint": "img#img_comp-lhz8ely03.BI8PVQ.Tj01hh",
+      "alt": "dr. saskia.png",
+      "roleHint": "general",
+      "mimeType": "image/png",
+      "width": 463,
+      "height": 452,
+      "sizeBytes": 303074,
+      "sha1": "a2435f84120f14ba4104d72b07ddad38a5252cea",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.saskiabarouki.com.br/limpeza"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/e2022d_46b7aed1b3f549a09e864a48a287e102~mv2.png/v1/crop/x_3,y_0,w_630,h_615/fill/w_463,h_452,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/dr_%20saskia.png",
+      "localPath": "images/sobre/dr_%20saskia.png",
+      "sourceType": "img:src",
+      "selectorHint": "img#img_comp-lhtarhc4.BI8PVQ.Tj01hh",
+      "alt": "dr. saskia.png",
+      "roleHint": "general",
+      "mimeType": "image/png",
+      "width": 463,
+      "height": 452,
+      "sizeBytes": 308747,
+      "sha1": "f1ef1ce8083d8984f4965d8ea2166fb5340dfea9",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.saskiabarouki.com.br/sobre"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/e2022d_82187a936ea5434d8f9cebfffe5def92~mv2.png/v1/fill/w_504,h_504,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Design%20sem%20nome%20(2).png",
+      "localPath": "images/invisalign/Design%20sem%20nome%20(2).png",
+      "sourceType": "img:src",
+      "selectorHint": "img#img_comp-lhz8nz8i.BI8PVQ.Tj01hh",
+      "alt": "Design sem nome (2).png",
+      "roleHint": "general",
+      "mimeType": "image/png",
+      "width": 504,
+      "height": 504,
+      "sizeBytes": 374543,
+      "sha1": "76d75c970dc99b7b16cd6a96a615c08eb531f1ee",
+      "qualityFlags": [
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.saskiabarouki.com.br/invisalign"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/e2022d_e883abbb0b5e42a79f99b28bb15198fa~mv2.png/v1/fill/w_388,h_388,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e2022d_e883abbb0b5e42a79f99b28bb15198fa~mv2.png",
+      "localPath": "images/invisalign/e2022d_e883abbb0b5e42a79f99b28bb15198fa~mv2.png",
+      "sourceType": "img:src",
+      "selectorHint": "img#img_comp-lhz8ojla.BI8PVQ.Tj01hh",
+      "alt": "",
+      "roleHint": "general",
+      "mimeType": "image/png",
+      "width": 388,
+      "height": 388,
+      "sizeBytes": 386332,
+      "sha1": "1abcaef92dc683d0d9d247ae65f9ff491ee13c52",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.saskiabarouki.com.br/invisalign"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/e2022d_ad0f2f978f374fc0ac8c7399eb74cad2~mv2.jpg/v1/fill/w_147,h_54,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/e2022d_ad0f2f978f374fc0ac8c7399eb74cad2~mv2.jpg",
+      "localPath": "images/invisalign/e2022d_ad0f2f978f374fc0ac8c7399eb74cad2~mv2.jpg",
+      "sourceType": "img:src",
+      "selectorHint": "img",
+      "alt": "Design sem nome.jpg",
+      "roleHint": "general",
+      "mimeType": "image/jpeg",
+      "width": 147,
+      "height": 54,
+      "sizeBytes": 1222,
+      "sha1": "2f27e5021f7759d33935c92164e3f3f538ec7c30",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero",
+        "possibly_overcompressed"
+      ],
+      "foundOnPage": "https://www.saskiabarouki.com.br/invisalign"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/e2022d_8116e714b08242a487ce1e2f50e4f03f~mv2.png/v1/crop/x_108,y_0,w_972,h_1080/fill/w_388,h_431,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/dr_%20saskia%20(1).png",
+      "localPath": "images/invisalign/dr_%20saskia%20(1).png",
+      "sourceType": "img:src",
+      "selectorHint": "img#img_comp-lhz8r9vg2.BI8PVQ.Tj01hh",
+      "alt": "dr. saskia (1).png",
+      "roleHint": "general",
+      "mimeType": "image/png",
+      "width": 388,
+      "height": 431,
+      "sizeBytes": 271238,
+      "sha1": "1552f9303374ae0744414ab1f051858b4da6c46f",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.saskiabarouki.com.br/invisalign"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/e2022d_7ca0af6bdf3f4637909897ce275e0ea2f000.jpg/v1/fill/w_360,h_640,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/e2022d_7ca0af6bdf3f4637909897ce275e0ea2f000.jpg",
+      "localPath": "images/invisalign/e2022d_7ca0af6bdf3f4637909897ce275e0ea2f000.jpg",
+      "sourceType": "img:src",
+      "selectorHint": "img#comp-lhz8sbe24_img.Z_wCwr.Jxk_UL.bgVideoposter.yK6aSC",
+      "alt": "",
+      "roleHint": "general",
+      "mimeType": "image/jpeg",
+      "width": 360,
+      "height": 640,
+      "sizeBytes": 24210,
+      "sha1": "ed745fbe57853e73e8b426e79504f57ec720a0cb",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.saskiabarouki.com.br/invisalign"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/e2022d_b7bfa40ef0f545dca156058ece6c26be~mv2.png/v1/fill/w_239,h_152,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/invisalign-curitiba-mordida-aberta.png",
+      "localPath": "images/invisalign/invisalign-curitiba-mordida-aberta.png",
+      "sourceType": "img:src",
+      "selectorHint": "img#img_comp-lhz8swkw4.BI8PVQ.Tj01hh",
+      "alt": "invisalign-curitiba-mordida-aberta.png",
+      "roleHint": "general",
+      "mimeType": "image/png",
+      "width": 239,
+      "height": 152,
+      "sizeBytes": 69685,
+      "sha1": "1fd2d928ead004b292c88300c70d20245fd8c916",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.saskiabarouki.com.br/invisalign"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/e2022d_6b522e1052f446958ffdb87e4db9e1da~mv2.png/v1/fill/w_242,h_152,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/invisalign-curitiba-mordida-cruzada.png",
+      "localPath": "images/invisalign/invisalign-curitiba-mordida-cruzada.png",
+      "sourceType": "img:src",
+      "selectorHint": "img#img_comp-lhz8swkz.BI8PVQ.Tj01hh",
+      "alt": "invisalign-curitiba-mordida-cruzada.png",
+      "roleHint": "general",
+      "mimeType": "image/png",
+      "width": 242,
+      "height": 152,
+      "sizeBytes": 65991,
+      "sha1": "a20bcf17c4797292e3270152b8f60bfadfe2d617",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.saskiabarouki.com.br/invisalign"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/e2022d_7f73a96efff74f6687f6b816927d04cd~mv2.png/v1/fill/w_241,h_152,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/invisalign-curitiba-mordida-correcoes-classe2-e-3.png",
+      "localPath": "images/invisalign/invisalign-curitiba-mordida-correcoes-classe2-e-3.png",
+      "sourceType": "img:src",
+      "selectorHint": "img#img_comp-lhz8swl1.BI8PVQ.Tj01hh",
+      "alt": "invisalign-curitiba-mordida-correcoes-classe2-e-3.png",
+      "roleHint": "general",
+      "mimeType": "image/png",
+      "width": 241,
+      "height": 152,
+      "sizeBytes": 66595,
+      "sha1": "e99bd62f5f602ca0772f6753cf77edc704a0016e",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.saskiabarouki.com.br/invisalign"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/e2022d_b963f9e82295436b97760f387f6a5c83~mv2.png/v1/fill/w_237,h_152,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/invisalign-curitiba-mordida-diastema.png",
+      "localPath": "images/invisalign/invisalign-curitiba-mordida-diastema.png",
+      "sourceType": "img:src",
+      "selectorHint": "img#img_comp-lhz8swl42.BI8PVQ.Tj01hh",
+      "alt": "invisalign-curitiba-mordida-diastema.png",
+      "roleHint": "general",
+      "mimeType": "image/png",
+      "width": 237,
+      "height": 152,
+      "sizeBytes": 65705,
+      "sha1": "0d7244dc978a54dd4519ad196494db0f187d029e",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.saskiabarouki.com.br/invisalign"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/e2022d_1e3c286444f84a309cfe82da7c0e60f0~mv2.png/v1/fill/w_239,h_152,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/invisalign-curitiba-mordida-profunda.png",
+      "localPath": "images/invisalign/invisalign-curitiba-mordida-profunda.png",
+      "sourceType": "img:src",
+      "selectorHint": "img#img_comp-lhz8swl8.BI8PVQ.Tj01hh",
+      "alt": "invisalign-curitiba-mordida-profunda.png",
+      "roleHint": "general",
+      "mimeType": "image/png",
+      "width": 239,
+      "height": 152,
+      "sizeBytes": 63811,
+      "sha1": "305d74a59ac4c5c0363fcce1108175ce3acaba73",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.saskiabarouki.com.br/invisalign"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/e2022d_64c28bae910443f2b2c813d8e527abc2~mv2.png/v1/fill/w_238,h_152,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/invisalign-curitiba-apinhamento.png",
+      "localPath": "images/invisalign/invisalign-curitiba-apinhamento.png",
+      "sourceType": "img:src",
+      "selectorHint": "img#img_comp-lhz8swla3.BI8PVQ.Tj01hh",
+      "alt": "invisalign-curitiba-apinhamento.png",
+      "roleHint": "general",
+      "mimeType": "image/png",
+      "width": 238,
+      "height": 152,
+      "sizeBytes": 66167,
+      "sha1": "105f27580f2a96f4a20f5b16f9fc13768a3a88e3",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.saskiabarouki.com.br/invisalign"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/e2022d_06e0755ae84d4298bcbc35cb14d7968c~mv2.png/v1/fill/w_490,h_490,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Design%20sem%20nome.png",
+      "localPath": "images/invisalign/Design%20sem%20nome.png",
+      "sourceType": "img:src",
+      "selectorHint": "img#img_comp-lhz8vp6h.BI8PVQ.Tj01hh",
+      "alt": "Design sem nome.png",
+      "roleHint": "general",
+      "mimeType": "image/png",
+      "width": 490,
+      "height": 490,
+      "sizeBytes": 286940,
+      "sha1": "f63dbdf2a61d31893a84e7ae3cc3a50563422fc3",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.saskiabarouki.com.br/invisalign"
+    }
+  ],
+  "errors": [
+    {
+      "url": "https://www.saskiabarouki.com.br/quality_auto/Saskia_Monogram%20(1)_pdf.png",
+      "error": "404 Client Error: Not Found for url: https://www.saskiabarouki.com.br/quality_auto/Saskia_Monogram-%281%29_pdf.png"
+    },
+    {
+      "url": "https://www.saskiabarouki.com.br/quality_auto/11062b_ee201fc429cd47b38dcab633e6e8ec3f~mv2.png",
+      "error": "404 Client Error: Not Found for url: https://www.saskiabarouki.com.br/quality_auto/11062b_ee201fc429cd47b38dcab633e6e8ec3f~mv2.png"
+    },
+    {
+      "url": "https://www.saskiabarouki.com.br/quality_auto/dra%20saskia%20barouki.png",
+      "error": "404 Client Error: Not Found for url: https://www.saskiabarouki.com.br/quality_auto/dra-saskia-barouki.png"
+    },
+    {
+      "url": "https://www.saskiabarouki.com.br/quality_auto/Amigas%20unidas.jpeg",
+      "error": "404 Client Error: Not Found for url: https://www.saskiabarouki.com.br/quality_auto/Amigas-unidas.jpeg"
+    },
+    {
+      "url": "https://www.saskiabarouki.com.br/quality_auto/Sorriso%20perfeito.jpg",
+      "error": "404 Client Error: Not Found for url: https://www.saskiabarouki.com.br/quality_auto/Sorriso-perfeito.jpg"
+    },
+    {
+      "url": "https://www.saskiabarouki.com.br/quality_auto/alinhadores%20invis%C3%ADveis%20invisalign.png",
+      "error": "404 Client Error: Not Found for url: https://www.saskiabarouki.com.br/quality_auto/alinhadores-invis%C3%ADveis-invisalign.png"
+    },
+    {
+      "url": "https://www.saskiabarouki.com.br/quality_auto/No%20dentista.jpg",
+      "error": "404 Client Error: Not Found for url: https://www.saskiabarouki.com.br/quality_auto/No-dentista.jpg"
+    },
+    {
+      "url": "https://www.saskiabarouki.com.br/quality_auto/Design%20sem%20nome%20(1).png",
+      "error": "404 Client Error: Not Found for url: https://www.saskiabarouki.com.br/quality_auto/Design-sem-nome-%281%29.png"
+    },
+    {
+      "url": "https://www.saskiabarouki.com.br/quality_auto/dr_%20saskia%20(2).png",
+      "error": "404 Client Error: Not Found for url: https://www.saskiabarouki.com.br/quality_auto/dr_-saskia-%282%29.png"
+    },
+    {
+      "url": "https://www.saskiabarouki.com.br/quality_auto/Capturar_PNG.png",
+      "error": "404 Client Error: Not Found for url: https://www.saskiabarouki.com.br/quality_auto/Capturar_PNG.png"
+    },
+    {
+      "url": "https://www.saskiabarouki.com.br/quality_auto/Captura%20de%20tela%202022-09-08%20181905.png",
+      "error": "404 Client Error: Not Found for url: https://www.saskiabarouki.com.br/quality_auto/Captura-de-tela-2022-09-08-181905.png"
+    },
+    {
+      "url": "https://www.saskiabarouki.com.br/quality_auto/Captura%20de%20tela%202022-09-08%20181646.png",
+      "error": "404 Client Error: Not Found for url: https://www.saskiabarouki.com.br/quality_auto/Captura-de-tela-2022-09-08-181646.png"
+    },
+    {
+      "url": "https://www.saskiabarouki.com.br/quality_auto/Captura%20de%20tela%202022-09-08%20181058.png",
+      "error": "404 Client Error: Not Found for url: https://www.saskiabarouki.com.br/quality_auto/Captura-de-tela-2022-09-08-181058.png"
+    },
+    {
+      "url": "https://www.saskiabarouki.com.br/quality_auto/dr_%20saskia.png",
+      "error": "404 Client Error: Not Found for url: https://www.saskiabarouki.com.br/quality_auto/dr_-saskia.png"
+    },
+    {
+      "url": "https://www.saskiabarouki.com.br/quality_auto/Design%20sem%20nome%20(2).png",
+      "error": "404 Client Error: Not Found for url: https://www.saskiabarouki.com.br/quality_auto/Design-sem-nome-%282%29.png"
+    },
+    {
+      "url": "https://www.saskiabarouki.com.br/quality_auto/e2022d_e883abbb0b5e42a79f99b28bb15198fa~mv2.png",
+      "error": "404 Client Error: Not Found for url: https://www.saskiabarouki.com.br/quality_auto/e2022d_e883abbb0b5e42a79f99b28bb15198fa~mv2.png"
+    },
+    {
+      "url": "https://www.saskiabarouki.com.br/quality_auto/dr_%20saskia%20(1).png",
+      "error": "404 Client Error: Not Found for url: https://www.saskiabarouki.com.br/quality_auto/dr_-saskia-%281%29.png"
+    },
+    {
+      "url": "https://www.saskiabarouki.com.br/quality_auto/e2022d_7ca0af6bdf3f4637909897ce275e0ea2f000.jpg",
+      "error": "404 Client Error: Not Found for url: https://www.saskiabarouki.com.br/quality_auto/e2022d_7ca0af6bdf3f4637909897ce275e0ea2f000.jpg"
+    },
+    {
+      "url": "https://www.saskiabarouki.com.br/quality_auto/invisalign-curitiba-mordida-aberta.png",
+      "error": "404 Client Error: Not Found for url: https://www.saskiabarouki.com.br/quality_auto/invisalign-curitiba-mordida-aberta.png"
+    },
+    {
+      "url": "https://www.saskiabarouki.com.br/quality_auto/invisalign-curitiba-mordida-cruzada.png",
+      "error": "404 Client Error: Not Found for url: https://www.saskiabarouki.com.br/quality_auto/invisalign-curitiba-mordida-cruzada.png"
+    },
+    {
+      "url": "https://www.saskiabarouki.com.br/quality_auto/invisalign-curitiba-mordida-correcoes-classe2-e-3.png",
+      "error": "404 Client Error: Not Found for url: https://www.saskiabarouki.com.br/quality_auto/invisalign-curitiba-mordida-correcoes-classe2-e-3.png"
+    },
+    {
+      "url": "https://www.saskiabarouki.com.br/quality_auto/invisalign-curitiba-mordida-diastema.png",
+      "error": "404 Client Error: Not Found for url: https://www.saskiabarouki.com.br/quality_auto/invisalign-curitiba-mordida-diastema.png"
+    },
+    {
+      "url": "https://www.saskiabarouki.com.br/quality_auto/invisalign-curitiba-mordida-profunda.png",
+      "error": "404 Client Error: Not Found for url: https://www.saskiabarouki.com.br/quality_auto/invisalign-curitiba-mordida-profunda.png"
+    },
+    {
+      "url": "https://www.saskiabarouki.com.br/quality_auto/invisalign-curitiba-apinhamento.png",
+      "error": "404 Client Error: Not Found for url: https://www.saskiabarouki.com.br/quality_auto/invisalign-curitiba-apinhamento.png"
+    },
+    {
+      "url": "https://www.saskiabarouki.com.br/quality_auto/Design%20sem%20nome.png",
+      "error": "404 Client Error: Not Found for url: https://www.saskiabarouki.com.br/quality_auto/Design-sem-nome.png"
+    }
+  ]
+}

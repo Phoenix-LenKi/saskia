@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QA Checklist Final - Dra. Saskia Barouki</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#FAF9F7] text-[#1A1A1A] font-sans p-8 min-h-screen">
+    <div class="max-w-4xl mx-auto bg-white p-10 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-[#E8E4E0]">
+        <header class="border-b border-gray-100 pb-6 mb-8">
+            <h1 class="text-3xl font-medium text-[#B08D8D]">QA Checklist Final</h1>
+            <p class="text-gray-500 mt-2">Validação de Qualidade e Conformidade do Projeto Phoenix</p>
+        </header>
+
+        <div class="space-y-6">
+            <section>
+                <h2 class="text-xl font-semibold mb-4">1. Performance & Core Web Vitals</h2>
+                <ul class="space-y-2 text-gray-700">
+                    <li class="flex items-center gap-2">✅ Imagens otimizadas servidas via Next/Image ou compressão direta</li>
+                    <li class="flex items-center gap-2">✅ Fontes (Poppins, DM Sans) via next/font sem render-blocking</li>
+                    <li class="flex items-center gap-2">✅ Bundle do framer-motion abstraído</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2 class="text-xl font-semibold mb-4">2. UX, Responsividade e Acessibilidade</h2>
+                <ul class="space-y-2 text-gray-700">
+                    <li class="flex items-center gap-2">✅ Mobile-First: Elementos 100% responsivos em 390px (iPhone)</li>
+                    <li class="flex items-center gap-2">✅ Menu Hamburger com trava de scroll (overflow: hidden no body) no mobile</li>
+                    <li class="flex items-center gap-2">✅ Áreas de toque de no mínimo 44x44px nos CTAs</li>
+                    <li class="flex items-center gap-2">✅ Contraste de cor aprovado nas diretrizes WCAG AAA para texto</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2 class="text-xl font-semibold mb-4">3. SEO & Segurança</h2>
+                <ul class="space-y-2 text-gray-700">
+                    <li class="flex items-center gap-2">✅ Metadata completa nas páginas com OpenGraph e Twitter Cards</li>
+                    <li class="flex items-center gap-2">✅ Favicon (dentinho coroa premium) e opengraph-image.png nativos via App Router</li>
+                    <li class="flex items-center gap-2">✅ Security Headers estritos no next.config.mjs (CSP, HSTS, X-Frame-Options)</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+</body>
+</html>

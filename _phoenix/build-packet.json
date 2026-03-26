@@ -1,0 +1,31 @@
+{
+  "jobId": "prep_saskia_barouki_dentista_floria_mn6leb28",
+  "status": "ready",
+  "lead": {
+    "originalSiteUrl": "https://www.saskiabarouki.com.br/",
+    "leadName": "Saskia Barouki | Dentista Florianópolis",
+    "niche": "Odontologia",
+    "cityState": "Florianópolis - SC",
+    "whatsapp": "(48) 99194-1172",
+    "observations": "Site antigo de 2023, sem responsividade, ativa no Instagram"
+  },
+  "project": {
+    "projectSlug": "saskia-barouki-dentista-florianopolis",
+    "projectDir": "E:/APPS/Projeto-Phoenix/saskia-barouki-dentista-florianopolis",
+    "scrapeDir": "E:/APPS/Projeto-Phoenix/saskia-barouki-dentista-florianopolis/input/site-scrape"
+  },
+  "paths": {
+    "localImageArchiveDir": "E:/APPS/Projeto-Phoenix/saskia-barouki-dentista-florianopolis/input/site-scrape/images",
+    "imageManifestFile": "E:/APPS/Projeto-Phoenix/saskia-barouki-dentista-florianopolis/input/site-scrape/manifest.json",
+    "localHtmlArchiveDir": "E:/APPS/Projeto-Phoenix/saskia-barouki-dentista-florianopolis/input/site-scrape/pages"
+  },
+  "checks": {
+    "projectDirExists": true,
+    "imagesDirExists": true,
+    "pagesDirExists": true,
+    "manifestExists": true
+  },
+  "promptVars": "ORIGINAL_SITE_URL = https://www.saskiabarouki.com.br/\nLEAD_NAME = Saskia Barouki | Dentista Florianópolis\nNICHO = Odontologia\nCIDADE_ESTADO = Florianópolis - SC\nWHATSAPP_DESTINO = (48) 99194-1172\nOBSERVACOES_PHOENIX = Site antigo de 2023, sem responsividade, ativa no Instagram\nLOCAL_IMAGE_ARCHIVE_DIR = E:/APPS/Projeto-Phoenix/saskia-barouki-dentista-florianopolis/input/site-scrape/images\nIMAGE_MANIFEST_FILE = E:/APPS/Projeto-Phoenix/saskia-barouki-dentista-florianopolis/input/site-scrape/manifest.json\nLOCAL_HTML_ARCHIVE_DIR = E:/APPS/Projeto-Phoenix/saskia-barouki-dentista-florianopolis/input/site-scrape/pages\nDEMO_URL = ",
+  "generatedAt": "2026-03-25T22:18:12Z",
+  "errorMessage": ""
+}
